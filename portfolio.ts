@@ -4,7 +4,7 @@ import javaIcon from "@iconify-icons/devicon/java";
 import {
   EducationType,
   CapstoneType,
-  FeedbackType,
+  //FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -17,8 +17,9 @@ export const greetings: GreetingsType = {
   name: "Jeremy Gitau",
   title: "Hi all, I'm Jeremy",
   description:
-  "I am a passionate software developer with extensive experience in Full Stack development, utilizing technologies like Python, Django, Java, Spring Boot, and React.js. I have a strong interest in machine learning, computer vision, and cloud-based solutions. I’m dedicated to creating impactful projects and constantly expanding my knowledge in AI, backend development, and cloud architecture. I thrive in team-based environments and enjoy exploring cutting-edge technologies to solve real-world problems.",
-  resumeLink: "#",
+  "I am a passionate software developer with extensive experience in Software development, utilizing technologies like Python, Java, Spring Boot, and Pytorch. I have a strong interest in machine learning, computer vision, and cloud-based solutions. I’m dedicated to creating impactful projects and constantly expanding my knowledge in AI, backend development, and cloud architecture. I thrive in team-based environments and enjoy exploring cutting-edge technologies to solve real-world problems.",
+  resumeLink: "https://drive.google.com/file/d/16kvyON13suvmBDx2VTSuUDp4bMlrkQW5/view",
+
   capstoneLink: "#capstone-section",
 };
 
@@ -35,6 +36,7 @@ export const socialLinks: SocialLinksType = {
   instagram: "https://www.instagram.com/j.gitaulee",
   facebook: 'https://www.facebook.com/1hanzla100',
   twitter: 'https://twitter.com/1hanzla100',
+  whatsapp: '#',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -131,7 +133,7 @@ export const capstone: CapstoneType[] = [
   {
     role: "My Autobiography",
     company: "Autobiography",
-    companyLogo: "/img/icons/common/meganos.png",
+    companyLogo: "/img/icons/common/journey.jpeg",
     date: "2024",
     desc: "A presentation about my journey.",
     biolink : [
@@ -142,7 +144,7 @@ export const capstone: CapstoneType[] = [
   {
     role: "Innovation",
     company: "Invention in Field of Study",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
+    companyLogo: "/img/icons/common/invention.jpg",
     date: "September 2024",
     desc: "Abstract and video presentation on inventions in my field of study",
     biolink : [
@@ -158,7 +160,7 @@ export const capstone: CapstoneType[] = [
   {
     role: "Importance of African Culture",
     company: "Culture Study",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
+    companyLogo: "/img/icons/common/culture.jpeg",
     date: "2024",
     desc: "Presentation on the significance of African culture.",
     biolink: [
@@ -170,7 +172,7 @@ export const capstone: CapstoneType[] = [
   {
     role: "The Ethical Challenges of Data Security ",
     company: "Challenge(s) facing Modern Society",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
+    companyLogo: "/img/icons/common/challenge.jpeg",
     date: "Sep 2024",
     desc: "Exploring the balance between innovation and privacy.",
     biolink: [
@@ -182,7 +184,7 @@ export const capstone: CapstoneType[] = [
   {
     role: "The essay",
     company: "The African Community",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
+    companyLogo: "/img/icons/common/africa.jpeg",
     date: "2024",
     desc: "#short dec of the essay",
     biolink: [
@@ -193,48 +195,49 @@ export const capstone: CapstoneType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    name: "portfolio",
+    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps  showcase my work and skills as a software developer.",
+    github: "https://github.com/empyreanlee/empyreanlee.git",
+    link: "https://empyreanlee-github-io.vercel.app/",
   },
   {
     name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
+    desc: "Developed a ChatGPT clone using Java RMI for distributed systems and Python for machine learning. Integrated the model with a scalable backend, enabling efficient processing and real-time interactions.",
+    github : "https://github.com/empyreanlee/chat_model.git",
   },
   {
     name: "O Mejor Oferta",
     desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
+    github : "https://github.com/empyreanlee/chat_model.git",
+  
   },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
-  },
+  // {
+  //   name: "Hooligan Culture",
+  //   desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
+  //   link: "https://hooliganculture.com/",
+  // },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "Syed Jamal",
-    role: "Frontend Developer at Meganos Software",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-  {
-    name: "Wajahat Malek",
-    role: "CEO at Duseca Software",
-    feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
-  },
-  {
-    name: "Zaid Zaffar",
-    role: "CEO at ZR Technologies",
-    feedback:
-      "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-  },
-];
+//export const feedbacks: FeedbackType[] = [
+  // {
+  //   name: "Syed Jamal",
+  //   role: "Frontend Developer at Meganos Software",
+  //   feedback:
+  //     "You ",
+  // },
+  // {
+  //   name: "Wajahat Malek",
+  //   role: "CEO at Duseca Software",
+  //   feedback:
+  //     "Hanzla .",
+  // },
+  // {
+  //   name: "Zaid Zaffar",
+  //   role: "CEO at ZR Technologies",
+  //   feedback:
+  //     "Very ",
+  // },
+//];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {

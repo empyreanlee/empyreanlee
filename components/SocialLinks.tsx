@@ -15,7 +15,7 @@ const SocialLinks = () => {
           target="_blank"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-envelope" />
+            <i className="fa-solid fa-envelope"></i>
           </span>
         </Button>
       )}
@@ -29,7 +29,7 @@ const SocialLinks = () => {
           target="_blank"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-linkedin" />
+            <i className="fa-brands fa-linkedin"></i>
           </span>
         </Button>
       )}
@@ -43,7 +43,7 @@ const SocialLinks = () => {
           target="_blank"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-github" />
+            <i className="fa-brands fa-github"></i>
           </span>
         </Button>
       )}
@@ -57,7 +57,7 @@ const SocialLinks = () => {
           aria-label="Instagram"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-instagram" />
+           <i className="fa-brands fa-instagram"></i>
           </span>
         </Button>
       )}
@@ -71,7 +71,7 @@ const SocialLinks = () => {
           aria-label="Facebook"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-facebook-square" />
+           <i className="fa-brands fa-facebook"></i>
           </span>
         </Button>
       )}
@@ -85,7 +85,21 @@ const SocialLinks = () => {
           aria-label="Twitter"
         >
           <span className="btn-inner--icon">
-            <i className="fa fa-times" />
+            <i className="fa-brands fa-x-twitter"></i>
+          </span>
+        </Button>
+      )}
+      {socialLinks.whatsapp && (
+        <Button
+          className="btn-icon-only rounded-circle"
+          color="white"
+          href={socialLinks.whatsapp}
+          target="_blank"
+          rel="noopener"
+          aria-label="Whatsapp"
+        >
+          <span className="btn-inner--icon">
+            <i className="fa-brands fa-whatsapp"></i>
           </span>
         </Button>
       )}

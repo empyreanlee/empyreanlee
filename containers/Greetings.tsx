@@ -40,7 +40,7 @@ const Greetings = () => {
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
+                          <i className="fa-solid fa-file" />
                         </span>
                         <span className="btn-inner--text">See My Resume</span>
                       </Button>
@@ -50,7 +50,7 @@ const Greetings = () => {
                         href={greetings.capstoneLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa fa-file" />
+                          <i className="fa-solid fa-closed-captioning"></i>
                         </span>
                         <span className="btn-inner--text">Capstone Project</span>
                       </Button>

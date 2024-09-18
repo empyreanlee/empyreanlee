@@ -60,7 +60,7 @@ const Navigation = () => {
                       href={socialLinks.facebook}
                       target="_blank"
                     >
-                      <i className="fa fa-facebook-square" />
+                      <i className="fa-brands fa-facebook" />
                       <span className="nav-link-inner--text d-lg-none ml-2">Facebook</span>
                     </NavLink>
                   </NavItem>
@@ -74,7 +74,7 @@ const Navigation = () => {
                       href={socialLinks.instagram}
                       target="_blank"
                     >
-                      <i className="fa fa-instagram" />
+                      <i className="fa-brands fa-instagram" />
                       <span className="nav-link-inner--text d-lg-none ml-2">Instagram</span>
                     </NavLink>
                   </NavItem>
@@ -88,7 +88,7 @@ const Navigation = () => {
                       href={socialLinks.github}
                       target="_blank"
                     >
-                      <i className="fa fa-github" />
+                      <i className="fa-brands fa-github" />
                       <span className="nav-link-inner--text d-lg-none ml-2">Github</span>
                     </NavLink>
                   </NavItem>
@@ -102,7 +102,7 @@ const Navigation = () => {
                       href={socialLinks.linkedin}
                       target="_blank"
                     >
-                      <i className="fa fa-linkedin" />
+                      <i className="fa-brands fa-linkedin" />
                       <span className="nav-link-inner--text d-lg-none ml-2">Linkedin</span>
                     </NavLink>
                   </NavItem>
@@ -116,7 +116,7 @@ const Navigation = () => {
                       href={socialLinks.twitter}
                       target="_blank"
                     >
-                      <i className="fa fa-twitter-square" />
+                      <i className="fa-brands fa-x-twitter" />
                       <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
                     </NavLink>
                   </NavItem>

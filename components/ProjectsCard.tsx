@@ -22,7 +22,7 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
                   aria-label="Github"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-github" />
+                    <i className="fa-brands fa-github" />
                   </span>
                 </Button>
               ) : null}
