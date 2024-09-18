@@ -148,7 +148,7 @@ export const capstone: CapstoneType[] = [
     date: "September 2024",
     desc: "Abstract and video presentation on inventions in my field of study",
     biolink : [
-      { label: "Video", url: "https://drive.google.com/file/d/1jGyPY5nBcDMtVpu9W7gltT47WFd4U0Q0/view" },
+      { label: "Video", url: "https://drive.google.com/file/d/1jGyPY5nBcDMtVpu9W7gltT47WFd4U0Q0/view?usp=sharing" },
       { label: "Abstract", url: "https://drive.google.com/file/d/1JxjdHNfyabFIW3c3XLC6usCwOz40VRujCU5c3U9rPTU" },
       { label: "Slides", url: "https://drive.google.com/file/d/1E3dl0-yZOdtB9VovsrV0N7E-t2WL2O61/preview" },
     ],
