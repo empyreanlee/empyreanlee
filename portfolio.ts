@@ -148,7 +148,7 @@ export const capstone: CapstoneType[] = [
     date: "September 2024",
     desc: "Abstract and video presentation on inventions in my field of study",
     biolink : [
-      { label: "Video", url: "https://drive.google.com/your-slides-link" },
+      { label: "Video", url: "https://drive.google.com/file/d/1jGyPY5nBcDMtVpu9W7gltT47WFd4U0Q0/view" },
       { label: "Abstract", url: "https://drive.google.com/file/d/1JxjdHNfyabFIW3c3XLC6usCwOz40VRujCU5c3U9rPTU" },
       { label: "Slides", url: "https://drive.google.com/file/d/1E3dl0-yZOdtB9VovsrV0N7E-t2WL2O61/preview" },
     ],
@@ -176,7 +176,7 @@ export const capstone: CapstoneType[] = [
     date: "Sep 2024",
     desc: "Exploring the balance between innovation and privacy.",
     biolink: [
-      { label: "Video", url: "https://drive.google.com/your-presentation-link" },
+      { label: "Video", url: "https://drive.google.com/file/d/1oTKBbMuv-XaXC5-T5wUWezO8SqnQNEXm/view" },
       { label: "Abstract", url: "https://drive.google.com/file/d/1UsGN1NAABr-jJs4JMN7jdT96GCznsMpbRD-kCc1ORog/view" },
       { label: "Slides", url: "https://drive.google.com/file/d/1Ng8TbL3QnBRa2r7tuGMiOclyTLczdjlQwmKulYQhpKE/preview" },
     ],
