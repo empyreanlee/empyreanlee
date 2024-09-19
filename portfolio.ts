@@ -34,7 +34,7 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/leegitaujeremy/",
   github: "https://github.com/empyreanlee",
   instagram: "https://www.instagram.com/j.gitaulee",
-  facebook: 'https://www.facebook.com/1hanzla100',
+  facebook: 'https://www.facebook.com/jeremy.gitau.9828/',
   twitter: 'https://twitter.com/1hanzla100',
   whatsapp: '#',
 };
@@ -164,7 +164,7 @@ export const capstone: CapstoneType[] = [
     date: "2024",
     desc: "Presentation on the significance of African culture.",
     biolink: [
-      { label: "Video", url: "https://drive.google.com/your-presentation-link" },
+      { label: "Video", url: "https://drive.google.com/file/d/1jGyPY5nBcDMtVpu9W7gltT47WFd4U0Q0/view?usp=sharing" },
       { label: "Abstract", url: "https://drive.google.com/file/d/17qvT1KECEBeNM4Lc0LBqskoVy5W6HNhgcMh1RooWyjM/edit" },
       { label: "Slides", url: "https://drive.google.com/file/d/1vsjYWvcE1vjbjPp6VtSEQY0XSPObFzgQ/preview" },
     ],
@@ -186,9 +186,19 @@ export const capstone: CapstoneType[] = [
     company: "The African Community",
     companyLogo: "/img/icons/common/africa.jpeg",
     date: "2024",
-    desc: "#short dec of the essay",
+    desc: "A PHOTOGRAPHIC ESSAY ON ADDRESSING FOOD SECURITY IN THE AFRICAN COMMUNITY",
     biolink: [
-      { label: "View Presentation", url: "https://drive.google.com/your-presentation-link" },
+      { label: "View Presentation", url: "https://drive.google.com/file/d/1sY0HbeqSkBW1TCvEXH0WGLutATMK1JYV/view?usp=sharing" },
+    ],
+    },
+  {
+    role: "My Resume",
+    company: "Curricum Vitae",
+    companyLogo: "/img/icons/common/res.jpeg",
+    date: "2024",
+    desc: "This be my resume",
+    biolink: [
+      { label: "Check Out", url: "https://drive.google.com/file/d/1N1gTjJYwL_IcO1x-ThC7SqaSSIah23BH/view" },
     ],
     },
 ];
@@ -243,16 +253,17 @@ export const projects: ProjectType[] = [
 export const seoData: SEODataType = {
   title: "Gitau Jeremy",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  author: "Gitau Jeremy",
+  image: "https://lh3.googleusercontent.com/a/ACg8ocIiWodG1mItb-SGFL82AT5lP8P1hir8vpRZ8qiIw0tPXANiJQpF=s288-c-no",
+  url: "https://empyreanlee.vercel.app",
   keywords: [
-    "Hanzla",
-    "Hanzla Tauqeer",
-    "@1hanzla100",
-    "1hanzla100",
+    "Jeremy",
+    "Jeremy Gitau",
+    "@empreanlee",
+    "empyrean",
     "Portfolio",
-    "Hanzla Portfolio ",
-    "Hanzla Tauqeer Portfolio",
+    "Jeremy Portfolio ",
+    "Jeremy Gitau Portfolio",
+    "Developer Portolio",
   ],
 };

@@ -40,7 +40,7 @@ const Greetings = () => {
                         href={greetings.resumeLink}
                       >
                         <span className="btn-inner--icon mr-1">
-                          <i className="fa-solid fa-file" />
+                          <i className="fa-solid fa-record-vinyl" />
                         </span>
                         <span className="btn-inner--text">See My Resume</span>
                       </Button>
