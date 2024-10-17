@@ -33,10 +33,10 @@ export const socialLinks: SocialLinksType = {
   email: "mailto:lloyd.developer2@gmail.com",
   linkedin: "https://www.linkedin.com/in/leegitaujeremy/",
   github: "https://github.com/empyreanlee",
-  instagram: "https://www.instagram.com/j.gitaulee",
+  instagram: "https://www.instagram.com/empyrean.lee",
   facebook: 'https://www.facebook.com/jeremy.gitau.9828/',
-  twitter: 'https://twitter.com/1hanzla100',
-  whatsapp: '#',
+  twitter: 'https://x.com/empyreangit',
+  whatsapp: '#254794562414',
 };
 
 export const skillsSection: SkillsSectionType = {

@@ -78,7 +78,7 @@ const SocialLinks = () => {
       {socialLinks.twitter && (
         <Button
           className="btn-icon-only rounded-circle"
-          color="twitter"
+          color="github"
           href={socialLinks.twitter}
           target="_blank"
           rel="noopener"
